@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(coffeebean.jpg);
+    background-size: auto;
+
+} 
+.menu {
+    width: 50%;
+    background-color: burlywood;
+    margin: auto;
+    border-radius: 7px;
+}
+.menu h1{
+    font-family: 'Adal', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;  
+}
+.menu p{
+    font-family: 'Adal', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+}
+.section{
+    background: rgba(124, 90, 27, 0.7);
+    opacity: 10px;
+    max-width: 80vw;
+    height: 990px;
+    margin: auto;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.itemlist ol, ul{
+    list-style:none;
+    position: relative;
+    margin-left: 15%;
+    top:45px;
+    font-family:'Abel', sans-serif;
+    font-size: 1.075rem;
+    color:#abb7b8;
+    line-height: 50px;
+    font-weight: bold;
+}
+.itemlist ol{
+    list-style:none;
+    position: absolute;
+    right: 25%;
+    top:140px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.075rem;   
+    color:#95a5a6;    
+}
+nav{
+    position: relative;
+    width: 100%;
+    background-color: rgb(89, 156, 147);
+    padding: 5px 15px;
+}
+.nav-container{
+    margin: 0 10px;
+    display: inline-block;
+}
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+.link-container{
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    margin:0 25px;
+    transition: 0.2s;
+}
+.link:hover{
+    color: rgb(30, 30, 30) ;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;   
+}
